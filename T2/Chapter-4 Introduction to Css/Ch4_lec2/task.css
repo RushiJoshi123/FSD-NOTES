@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Montserrat;
+    font-weight:bold;
+    font-style:italic;
+    font-size:large;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+}
+.username:hover{
+    background-color: yellow;
+}
+.pass:hover{
+    background-color: pink;
+}
+.male:active{
+    background-color: pink;
+}
+.para:active{
+    color:red;
+}
+.submit:hover{
+    background-color: blue;
+}
+.reset:hover{
+    background-color: green;
+}
+.sports:active{
+    color:red;
+    word-spacing: 20px;
+}
+
