@@ -1,0 +1,40 @@
+<!-- write html and css script to design one signup form having field like user name, password , submit and reset button 
+while hovering each control it should be expanded around 30% horizontally abnd vertically with delay 2 sec 
+expansion should take place in 4 seconds   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            word-spacing: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        form{
+            background-color: orange;}
+        .field{
+            width:100px;
+            height:10px;
+            background-color: beige;
+            transition: width 300ms;
+            transition-delay: 20ms;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .field:hover{width:30%; }
+        
+    </style>
+</head>
+<body>
+    <form border="2" align="center">
+        <fieldset>
+        <legend align="center">Signup</legend>
+        Username: <input type="text" class="field"><br>
+        Password: <input type="password" class="field"><br>
+         <input type="submit" class="field">
+        <input type="reset" class="field">
+    </fieldset>
+        </form>
+</body>
+</html>
