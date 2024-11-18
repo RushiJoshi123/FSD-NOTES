@@ -1,0 +1,36 @@
+<!-- write following style in seperate css file 
+    1. write one paragraph using p tag color of first line of paragraph should be green and italic 
+    2. when you select any text of heading,background color of selected text will become grey color 
+    3. create one ordered list which starts with capital roman letters color of list should be green and font size should be 30px 
+note : use pseudo element and appropiate selectors  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+        pre::first-line{
+    color:green;
+    font-style: italic;
+}
+    ::selection{
+        background-color: grey;
+}
+    ::marker{
+    color:blue;
+    font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nihil.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia.
+    </pre>
+    <ol type="I">
+        <li>abc</li>
+        <li>xyz</li>
+    </ol>
+</body>
+</html>
