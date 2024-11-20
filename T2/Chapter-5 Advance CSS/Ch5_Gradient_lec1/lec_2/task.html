@@ -1,0 +1,34 @@
+<!-- task: 
+write html and css script to design one banner of advertisement using p tag that text of 
+advertise should move continusely from left end to right end then return back from right to left end use 
+red color for text and font size should be 50px advertise should begin after one second of loading page  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            height:100px;
+            width:100px;
+            color:red ;
+       
+            animation-name:move;
+            animation-delay:1s;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+        @keyframes move{
+            0%{left: 0px;top:0px;}
+            33%{left:500px;top:200px;}
+            66%{left:1000px;top:0px;}
+            100%{left:0px;top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <p>Advertisement </p>
+</body>
+</html>
