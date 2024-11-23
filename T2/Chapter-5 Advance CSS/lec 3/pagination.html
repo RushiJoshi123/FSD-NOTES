@@ -1,0 +1,47 @@
+<!-- design following using css and add transition property using links to create a transition 
+ effect on hover turn background color  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pagination {
+            display: inline-block;
+            /* border: 1px solid red ; */
+        }
+        .pagination a{
+            border: 1px solid black ;
+            text-decoration: none;
+            color:black;
+            background-color: gray;
+            padding: 5px;
+        }
+        .pagination a.active{
+            background-color: green;
+            color:white;
+
+        }
+        .pagination a:hover:not(.active){
+            background-color: darkgreen;
+            color:white;
+            transition:700ms;
+            border:1px solid black ;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>hi </h1>
+    <div class="pagination">
+        <a href="#">prev&laquo;</a>
+        <a href="#" target="_blank">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">next&raquo;</a>
+    </div>   
+</body>
+</html>

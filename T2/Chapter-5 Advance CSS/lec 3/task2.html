@@ -1,0 +1,54 @@
+<!-- write html css script to design 3 sections having 20% height and full width apply following requirements : 
+    1. each section has title and a paragraph by hovering each section it should be enclosed by a red border 
+    2. by hovering title of each section it should be converted to blue color 
+    3. by hovering paragraph of each section it should take a 2 cm of begininning space and later of each word capital 
+    4. store all css properties in global css variables  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --a:1px solid black;
+            --b:2px solid red ; 
+            --c: blue ;
+        }
+        div{
+            border:var(--a) ;
+            padding: 10px ;
+            height:20%;
+            margin:20px ;
+        }
+        div:hover{
+            border:var(--b); 
+
+        }
+        h1:hover {
+            color:var(--c);
+        }
+        p:hover{
+            color:var(--c);
+            text-transform: capitalize;
+            text-indent: 2cm;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="d1" >
+        <h1>Title</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ab.</p>
+    </div>
+    <div class="d2">
+        <h1>Title</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ab.</p>
+    </div>
+    <div class="d3">
+        <h1>Title</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ab.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --a:center;
+            --c:1px solid black ;
+            --b:center;
+        }
+        /* *{
+            text-align: var(--b);
+        } */
+        h1{
+            border-bottom: var(--c);
+        }
+        .d2{
+         text-decoration:var(--a);  
+         border: var(--c) ; 
+         background-color: white;
+         margin:100px;
+        }
+        .d1{
+            border:var(--c);
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1" >
+        <div class="d2" height="500px" width="500px">
+            <h1>Heading</h1><br>
+            <a href="#">home</a><br>
+            <a href="#">about</a><br>
+            <a href="#">other</a><br>
+        </div>
+    </div>
+</body>
+</html>

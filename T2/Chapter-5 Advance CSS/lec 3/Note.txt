@@ -1,0 +1,34 @@
+Pagination
+2d transformation
+media query 
+css variable 
+
+Pagination : 
+1. simple Pagination
+2. active and hoverable pagination 
+3. bordered padgination 
+4. rounded-bordered pagination 
+
+#Simple Pagination : 
+    <<1 2 3 4 5>>
+
+#CSS Variable : 
+    Global   Local 
+
+    syntax : 
+    :root {
+        --varname:value; 
+    }
+#2D Transformation : 
+    1. Translate 
+    2. rotate
+    3. skew
+    4. skew x
+    5. skew y
+    6. scale
+    7. scale x 
+    8. scale y 
+
+rotate():
+    -positive value : clockwise rotation
+    --ve value : counter clockwise rotation 

@@ -1,0 +1,33 @@
+<!-- write html css code to design one banner using any heading tag that heading should move 
+in counter clock wise and complete its iteration than return back in clock wise on its starting position 
+use blue color text and effect should begin after 3 sec of loading page   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        width:500px;
+            background-color: beige;
+            animation-name:move;
+            text-align: center;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            border-radius: 10PX;
+            position:relative;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin:200px;
+        }
+        @keyframes move{
+            from {transform:rotate(360deg);}
+            to{transform:rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+    <div>This is Banner </div>
+</body>
+</html>

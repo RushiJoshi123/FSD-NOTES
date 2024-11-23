@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 50%;
+            width: 50%;
+            border: 1px solid black ;
+            margin:20px;
+            background-color: beige;
+        }
+        /* Translate */
+        .d1:hover{ transform: translate(180px,180px)}
+
+        /* Rotate */
+        .d2:hover{ transform: rotate(20deg);}
+
+        /* Skew */
+        .d3:hover{
+            /* transform: skewX(40deg)
+            transform: skewY(40deg) */
+            transform:   skew(-40deg,-20deg);
+        }
+        /* Scale */
+        .d4:hover{
+            /* transform:scaleX(0.5);
+            transform:scaleY(0.5); */
+            transform:scale(1.5,1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"><h1>Translate </h1></div>
+    <div class="d2"><h1>Rotate </h1></div>
+    <div class="d3"><h1>Skew</h1></div>
+    <div class="d4"><h1>Scale</h1></div>
+</body>
+</html>
