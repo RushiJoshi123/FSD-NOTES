@@ -1,0 +1,15 @@
+
+#pseodo classes : 
+    first-line
+    first-letter 
+    after
+    before 
+    marker
+    selection 
+    
+#positioning: 
+    1.fixed
+    2.relative
+    3.none
+    4.static 
+    5.absolute

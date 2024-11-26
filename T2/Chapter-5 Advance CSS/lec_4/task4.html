@@ -1,0 +1,25 @@
+<!-- Q197:
+write down html css code in seperate css file and also show how to link css file in html file for following 
+1. take two header tag first letter of first header tag should be red color and 160% size avu banavanu che  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        h1::first-letter{
+            color:red;
+            font-size:160%;
+        }
+        .h1::after{content:url("img1.png"); }
+        .h2::before{ content: url("img1.png"); }
+
+    </style>
+</head>
+<body>
+    <h1 class="h1">This is heading </h1>
+    <h1 class="h2">This is heading 2</h1>
+</body>
+</html>

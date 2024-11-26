@@ -1,0 +1,55 @@
+<!-- write down html css code that shows that will float to the right of the page if the viewport is 
+380px wide or wider (if the viewport is less than 380px then the menu will be on top of the content) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+       body{
+        width :100%;
+        height:100%;
+        margin-left:40px;
+        margin-right:60px;
+
+       }
+        h1{
+            float:left;
+        }
+        a{
+            float:right;
+            margin:2px;
+            margin-right:100px;
+        }
+       
+        p{
+            float:inline-end;
+            margin-right:200px;
+        }
+        @media only screen and (max-width:380px){
+            .a1{
+                float:left;
+            }
+          
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="#" class="a1">others</a>
+    <a href="#"class="a1">about </a>
+    <a href="#"class="a1"> Home</a>
+        <h1>Heading</h1>
+ 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Pariatur, sunt eius labore voluptas architecto, qui voluptate 
+        nemo minima maxime libero voluptatem dolor! Adipisci tempore 
+        recusandae fuga? Non perferendis, accusamus libero velit, magni,
+         fugit dolor sint impedit tempora repellat et in qui
+        dolorum saepe nesciunt praesentium tempore maxime a? Dolorum, 
+        reprehenderit.</p>
+
+</body>
+</html>

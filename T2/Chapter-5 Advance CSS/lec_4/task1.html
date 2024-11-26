@@ -1,0 +1,70 @@
+<!-- write html css script to design two tables having 3 rows and 3 columns of 50% width each horizontally adjust to each other
+they have blue and green background color respectively if page turns to potrait mode then background color of table 
+should be swapped responsive concept must be of some , while shrinking width of page  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width:50%;
+            border-collapse: collapse;
+            float:left;
+            margin:20px;
+        }
+        .t1{
+            background-color: blue;
+        }
+        .t2{
+            background-color: green;
+        }
+        @media only screen and (orientation :landscape){
+                .t1{
+                    transition: width 3s;
+                    background-color: green;
+                }
+                .t2{
+                    background-color: blue;
+                }
+            }
+    </style>
+</head>
+<body>
+    <table border="2" class="t1">
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+    </table>
+    <table border="2" class="t2">
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+        </tr>
+    </table>
+</body>
+</html>
