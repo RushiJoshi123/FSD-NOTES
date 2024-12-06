@@ -1,0 +1,76 @@
+# Container
+    -fixed 
+    -fluid
+1. container : 
+    -class provides a responsive fixed wtih container
+2. container-fluid :
+    -class provides a full width container 
+
+# Bootstrap typography: 
+    default font size : 1 rem = 16px 
+
+    some other typography: 
+        1. text-center
+        2. text-left
+        3. text-right 
+        4. text-justify 
+        5. text-uppercase 
+        6. text-lowercase 
+        7. text-capitalise 
+        8. font-weight-bold
+        9. font-weight-light
+
+# Abbreviation : 
+     <div class="container">
+        <abbr title="LJ University" style="text-decoration: none; ">LJ</abbr>
+    </div>
+
+#Bootstrap-4  colors 
+Text-colors 
+    1. .text-muted
+    2. .text-primary
+    3. .text-success
+    4. .text-info
+    5. .text-warning
+    6. text-danger
+    7. text-secondary
+    8. text-white
+    9. text-dark
+    10. text-body
+    11. text-light
+
+# Background-color
+    1. bg-primary
+    2. bg-success
+    3. bg-warning
+    4. bg-danger
+    5. bg-secondary 
+    6. bg-dark
+    7. bg-light
+    8. bg-info
+
+note: the !important rule in css is used to add more important to a property /value than normal 
+    ex - applyimportant.html
+
+#Bootstrap Grid : 
+    -it allows up to 12 column across the page 
+
+    Grid class: 
+        1. col  ( -extra small device - screen wdith less than 576px)
+        2. col-sm- (small device - screen width equal or greter than 576)
+        3. col-md-(medium device - >= 768px )
+        4. col-lg-(large device >= 992px )
+        5. col-xl-(xlarge device >= 1200px )
+
+    step : 
+        * create a row
+        * then add theh desired number of column using .col-*-* 
+    Note: 
+        first star represent -> device -> sm,md,lg,xl 
+        second star represent a number which should always add up to 12 for each row 
+        
+    List in Bootstrap :
+        1. inline
+        2. unstyled 
+
+    
