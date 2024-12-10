@@ -1,0 +1,69 @@
+# Table : 
+1. class="table" -adds basic style to a table 
+2. table-bordered - addds border on all sides 
+3. table-hover - bg-grey
+4. table-borderless - remove border
+5. table-dark and table-striped 
+
+# Contextual classes: 
+    1. table-sucess
+    2. table-primary 
+    3. table-danger
+    4. table-warning
+    5. table-info
+    6. table-dark
+    7. table-light
+    8. table-active 
+    9. table-secondary 
+
+# Alert:
+    1. alert
+    2. alert-primary
+    3. alert-info
+    4. alert-success
+    5. alert-warning
+    6. alert-danger
+    7. alert-secondary
+    8. alert-light
+    9. alert-dark
+
+# Closing alert
+    1. class="close"
+    and data-dismiss="alert"
+
+# Button sytles
+    classes: 
+    1. btn 
+    2. btn-primary
+    3. btn-secondary
+    4. btn-danger
+    5. btn-warning
+    6. btn-info
+    7. btn-dark
+    8. btn-light
+    9, btn-success
+
+# Button Outlines
+    1.btn-outline-primary
+    2. btn-outline-secondary
+    3. btn-outline-danger
+    4. btn-outline-info
+    5. btn-outline-dark
+    6. btn-outline-warning
+    7. btn-outline-light
+
+# Button States
+    1. active
+    2. disabled 
+
+# Spinner buttton 
+     <button class="btn btn-success">
+        <span class="spinner-grow spinner-grow-sm">hello</span>
+        Loading
+    </button>
+
+# Progress bar
+    1. .progress 
+        -container of progress
+    2. .progress-bar   
+        - this denotes how much progress bar should be visible with progress 
