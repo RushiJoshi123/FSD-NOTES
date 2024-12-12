@@ -1,0 +1,28 @@
+# Spinner 
+    1. processing 
+    2. growing 
+# Pagination 
+    1. basic pagination 
+    2. active pagination
+    3. disabled pagination 
+        * classes : 
+            .pagination -> add to <ul>
+            .page-item -> add to <li>
+            .page-link -> add to <a>
+    * pagination-alignment classes
+        1. justify-content-center(center)
+        2. justify-content-end(right)
+# Dropdown 
+    classes: 
+    1. Dropdown
+    2. data-toggle="dropdown" (attribute)
+    3. dropdown-toggle
+    4. dropdown-menu
+    5. dropdown-item
+
+# Accordion
+    classes: 
+        1. data-parent
+        2. data-toggle
+        3. data-target
+
