@@ -1,0 +1,51 @@
+# Navs: 
+    1. simple navigatoin 
+    2. disabled link
+    3. Alignment of Navigation
+    4. Vertical Navigation
+    5. Tabs
+    6. Pills
+    7. Dynamic/toggle tabs 
+    8. dynamic/toggle Pills
+    9. nav with dropdown 
+
+    *classes : 
+        1. .nav - specified to take navigation as outer body add in <ul> tag
+        2.  .nav-item - <li> tag
+        3.  .nav-link - <a> tag 
+        
+        <ul class="nav justify-content-center">
+         => 
+            justify-content-center
+            justify-content-end
+            flex-column
+            nav-tabs
+            nav-pills
+        7. dynamic/toggletabs : 
+            1. tab-content - used in second div for open content 
+            2. nav-tabs - ul tag 
+            
+            *attribute 
+                1. data-bstoggle="tab" - <a> tag 
+        9. navs with dropdown 
+            1. dropdown - li tag 
+            2. dropdown - toggle - a tag 
+            3. dropdown - menu 
+            4. dropdown - item 
+
+            #Attribute : 
+                *data-bs-toggle="dropdown" <a> tag 
+#Navbar: 
+    1. basic 
+    2. vertical
+    3. colored 
+    4. brand/logo
+    5. collapsable 
+    6. navbar with dropdown 
+
+    classes: 
+        1. navbar - a std navigation bar is created 
+        2. navbar-expand - responsive class(sm,lg,xl,xxl(size-1400),md)
+
+        Note : to add white text color to all links in navbar use ".navbar-dark"
+               to add black dcolor text use ".navbar-light" class
