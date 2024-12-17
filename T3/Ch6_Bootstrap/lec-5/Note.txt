@@ -1,0 +1,7 @@
+Task : Carousel task : 
+
+Design a webpage with bootstrap to make a set of advertisement moving like a slide show it must have 
+buttons to jump on next or previous slides and to jump on random slides 
+
+write html using bootstrap-5 to make a set of a slide show of any three random images with buttons having a caption 
+it must have buttons to jump on next or previous slide also 
