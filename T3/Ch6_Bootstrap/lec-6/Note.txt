@@ -1,0 +1,39 @@
+modal :
+    - to open dialogoue or pop up box 
+
+    classes :
+        1. modal 
+        2. modal-dialogoue
+        3. modal-content
+        4. modal-header
+        5. modal-body
+        6. modal-footer
+#ScrollSpy:
+    - Attributes:
+        - data-bs-spy="scroll" (in body tag)
+    -classes:
+        - fixed-top -> nav
+        - navigation bar freez
+    
+#Forms:
+    1. stacked form 
+        -all controls will be in new line
+    classes: 
+        1. form-control
+            - used it text field, email, password etc
+                Attributes: rows 
+        2. form-check
+            - used in outer <div> tag 
+        3. form-check-label
+            -for label
+        4. form-check-input
+            -for checkbox
+        
+        *dropdown: 
+            1. form-group
+            2. form-select
+    2. Inline form : 
+        - same line form control
+
+
+    
