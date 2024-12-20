@@ -1,0 +1,30 @@
+Flex: 
+    1. horizontal 
+    2. vertical 
+    3. justify
+        1. d-Flex
+        2. d-inline-flex
+        3. flex-row
+        4. flex-row-reverse
+        5. flex-column
+        6. flex-column-reverse
+        7. flex-fill
+        8. flex-grow-1
+        9. flex-grow-1
+        10. flex-wrap
+        11. flex-warp-reverse
+        12. justify-content-start
+        13. justify-content-end
+        14. justify-content-center
+        15. justify-content-between
+        16. justify-content-around
+
+
+#Grid system : 
+    devices - range :
+        1. extra-small : col - 576 px 
+        2. small : sm - >= 576px
+        3. medium : md - >= 768px
+        4. large : lg - >= 992px
+        5. extra large: xl - >= 1200px 
+        6. x-xlarge: xxl - >= 1400px 
