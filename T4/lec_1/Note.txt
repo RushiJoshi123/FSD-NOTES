@@ -1,0 +1,66 @@
+# Syntax :
+    <script></script>
+
+# Attributes :
+    1. language ="javascript"
+    2. type ="text/javascript"
+
+# Variable type:
+    1. using var
+    2. using let
+    3. using const
+
+# Data types : 
+    1. Primitives 
+        - string 
+        - number 
+        - boolean 
+        - undefined 
+        - null
+    2. Non Primitives 
+        - An object 
+        - An Array 
+# Loops :
+    Entry controlled :
+        while , for 
+    Exit controlled :
+        - do..while 
+# Function : 
+    function functionname (parameters){
+        //statements 
+    }
+# Array : 
+    Syntax : 
+        var arrayname = [value1, value2]
+# Javascript object 
+    1. inbuild object 
+    2. userdefined object 
+
+    # Inbuild object 
+        1. Math 
+        2. string 
+        3. date 
+
+        1. Math 
+            - abc 
+            - floor
+            - sqrt
+            - pow
+        3. Date 
+             date ()
+             getDate ()
+             getFullyear()
+             getHours()
+             getMilliseconds()
+             getMinutes()
+             getMonth ()
+             getMillisecondsgetTime()
+             setDate()
+             setFullyear()
+             setHours()
+             SetMilisecdonds()
+             setMinutes()
+             setMonth()
+             setSeconds()
+             setTime ()
+        
