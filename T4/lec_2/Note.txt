@@ -1,8 +1,0 @@
-string methods : 
-    1. charAt(index)
-        - Index always start from 0 
-    2. charCodeAT
-# Pop up boxes :
-    1. alert box 
-    2. confirmation box 
-    3. prompt box 
