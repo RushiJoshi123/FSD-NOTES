@@ -1,0 +1,16 @@
+string methods : 
+    1. charAt(index)
+        - Index always start from 0 
+    2. charCodeAT
+# Pop up boxes :
+    1. alert box 
+    2. confirmation box 
+    3. prompt box 
+Note : 
+    getDate() 1-31
+    getday 0-6
+    getmont0-11
+    getfullyear
+    gethours
+    getminuts
+    getseconds
