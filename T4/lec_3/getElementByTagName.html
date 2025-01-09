@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function func(){
+                c1 = document.getElementsByClassName("same")
+                for(i=0;i<c1.length;i++){
+                    c1[0].innerHTML="hellllloooo";
+                    c1[1].style.color="red";
+                    c1[2].style.backgroundColor="green";
+                }
+            }
+        </script>
+        <p class="same">p1 Tag</p>
+        <p class="same">p2 Tag</p>
+        <p class="same">p3 Tag</p>
+        <input type="button" onclick="func()" value="click"/>
+    </body>
+</html>

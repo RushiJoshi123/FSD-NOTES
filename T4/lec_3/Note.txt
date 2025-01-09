@@ -1,0 +1,7 @@
+DOM methods : 
+    1. getelementById()
+    2. getElementByTagName()
+    3. getElementByClassName()
+    4. write()
+Property (change in innder text ):
+    element.innerHtml = new html content 

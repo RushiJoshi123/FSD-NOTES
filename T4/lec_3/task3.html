@@ -1,0 +1,43 @@
+<!-- write a js to handle following mouse events : 
+1. if mouse is over heading should turn yellow if mouse goes out then it should turn black 
+2. if button name find time button is clicked then show date and time information 
+3. if button name red is clicked then background color should turn red and button name green is clicked 
+    then background color should turn green (body) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fun(id){
+            id.style.backgroundColor="yellow"
+            id.style.color="black";
+        }
+        function fun1(id){
+            id.style.backgroundColor="black"
+            id.style.color="yellow";
+        }
+        function fun3(){
+           
+        }
+        function fun4(){
+        document.body.style.backgroundColor = "red";
+        }
+        function fun5(){
+            document.body.style.background="blue";
+        }
+    </script>
+    <div onmouseover="fun(this)" onmouseout="fun1(this)" style="width:50px;height:50px;border:1px solid red; ">Heloo</div>
+    <button onclick="fun3()"></button>
+    <button  onclick="fun4()">red</button>
+    <button  onclick="fun5()">Blue</button>
+
+    
+</body>
+</html>
+write a js that handles following form events add one input field 
+1. if the field is in focus change its background color to green 
+2. change text to lower case only when the value field in then the change i

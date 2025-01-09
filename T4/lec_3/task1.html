@@ -1,0 +1,30 @@
+<!-- write a scirpt to convert text by clicking on button upper and convert text to lower case by clicking on button 
+lower  -->
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function func1(){
+                c1 = document.getElementsByClassName("same")
+              
+            
+                for(i=0;i<c1.length;i++){
+                    c1[i].style.textTransform="uppercase" 
+                    document.write(c1[i].innerHTML.toUpperCase())
+                }
+            }
+            function func2(){
+                c1 = document.getElementsByClassName("same")
+                for(i=0;i<c1.length;i++){
+                    c1[i].style.textTransform="lowercase"
+                }
+            }
+        </script>
+        <p class="same">p1 Tag</p>
+        <p class="same">p2 Tag</p>
+        <p class="same">p3 Tag</p>
+        <input type="button" onclick="func1()" value="upper"/>
+        <input type="button" onclick="func2()" value="lower"/>
+    </body>
+</html>
