@@ -54,7 +54,8 @@
              getMilliseconds()
              getMinutes()
              getMonth ()
-             getMillisecondsgetTime()
+             getMilliseconds
+             getTime()
              setDate()
              setFullyear()
              setHours()
