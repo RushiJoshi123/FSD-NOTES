@@ -1,0 +1,24 @@
+<!-- write a js to check which mouse button is clicked 
+    right left or middle -->
+    <html>
+        <head>
+            <script>
+                function fun(e){
+                    val = e.button;
+                    switch(val){
+                        case 0: alert("Left click ! ")
+                        break;
+                        case 1: alert("Middle click ! ")
+                        break ;
+                        case 2: alert("Right click ! ")
+                        break ;
+                    }
+
+                }
+            </script>
+
+        </head>
+        <body>
+            <div style = "width:50px ; height:50px; background-color:red;" onmousedown ="fun(event)">hello</div>
+        </body>
+        </html>

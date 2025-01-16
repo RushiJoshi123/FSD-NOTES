@@ -1,0 +1,9 @@
+#onMouseUp: 
+    - onclick = onmousedown + onmouseup 
+#OnBlur : 
+    when loseses focus 
+#OnSubmit: 
+    1. obj = document.forms["form_name"]["element_name"].value;
+                        or 
+    2. obj = document.form_name.element_name.value;
+    
