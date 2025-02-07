@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouncing Balls</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    .bounce {
+      animation: bounce 1s ease-in-out infinite;
+    }
+
+    .bounce-delay-1 {
+      animation-delay: 0.2s;
+    }
+
+    .bounce-delay-2 {
+      animation-delay: 0.4s;
+    }
+
+    .bounce-delay-3 {
+      animation-delay: 0.6s;
+    }
+  </style>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-100">
+  <div class="flex space-x-4">
+    <div class="w-10 h-10 bg-blue-500 rounded-full bounce bounce-delay-1"></div>
+    <div class="w-10 h-10 bg-red-500 rounded-full bounce bounce-delay-2"></div>
+    <div class="w-10 h-10 bg-green-500 rounded-full bounce bounce-delay-3"></div>
+  </div>
+</div>
+  <br>
+  <br>
+  <a class="hover:animate-pulse my-11 mx-4 inline-block border-4 border-blue-900 text-blue-900 px-10 py-4 hover:bg-blue-100 text-2xl hover:shadow-2xl " href="#" >Click Me</a>
+  <button class="hover:animate-bounce px-10 py-4 bg-black text-white my-11 mx-4 text-2xl hover:text-black hover:bg-white hover:border-2 hover:border-black rounded-md transition-all duration-1000 hover:px-11 hover:py-5">Click Here</button>
+</body>
+</html>
