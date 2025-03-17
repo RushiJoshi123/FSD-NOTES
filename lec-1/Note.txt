@@ -1,0 +1,31 @@
+#JSON 
+       - javascript object notation 
+ 
+#Text format 
+       - for storing and transporting data
+
+#Self describing 
+       - Language Independent 
+
+       #Syntax:
+              -Curly braces holds - 
+                     -objects and each name is followed by ':' colon
+              - Data 
+                     - represented by key/value pairs
+              - Keys/value pairs separated by ',' comma
+              - Square Bracket holds - array
+                     - Values are separated by ','comma 
+
+       - JSON Data types: 
+              - 1. String 
+              - 2. Number 
+              - 3. Object 
+              - 4. array
+              - 5. boolean
+              - 6. null
+
+       - JSON built in function
+               1. json.parse()
+                     - string to object
+               2. json.stringify()
+                     - object to string 

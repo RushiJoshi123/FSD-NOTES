@@ -1,0 +1,12 @@
+{
+       "company": "c1",
+       "compcontacts":
+       {
+              "Phone":"123-123",
+              "email":"a@gmail.com"
+       },
+       "employees":[
+              {"id":"101","Name":"ABC"},
+              {"id":"102","Name":"DEF"}
+       ]
+}
