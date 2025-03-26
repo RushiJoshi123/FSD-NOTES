@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <script></script>
+</head>
+<body>
+       <script>
+              var a = { "company": "c1",
+       "compcontacts":
+       {
+              "Phone":"123-123",
+              "email":"a@gmail.com"
+       },
+       "employees":[
+              {"id":"101","Name":"ABC"},
+             { "id":"102","Name":"DEF"}
+       ]}
+    
+       var b = {
+              "name": "test",
+              "age": "20",
+              "ispass": false,
+              "address":{
+                     "city":"surat",
+                     "zip":"30232",
+
+              },
+              "Subject":["Maths","Science"],
+              "year": null
+
+       }
+      var obj = JSON.stringify({"var1":"LJ","var2":"University"});
+//       return object as string 
+      console.log(obj);
+      console.log(obj.var1+""+obj.var2);
+      var cars = [
+       {
+              "color":"gray",
+              "model":"1",
+              "nofdoors":"4"
+       },
+       {
+              "color":"yellow",
+              "model":"2",
+              "nofdoors":"4"
+       }
+      ];
+      var jsoncars = JSON.stringify(cars)
+      console.log(jsoncars[0].model);
+      console.log(cars[0].model);
+
+//       write a code to fetch to "Give again" value from the user object 
+      const user = {
+       "name": ["ABC","DEF","GHI"],
+       "age":"20",
+       "course":["FSD-1","COA","java"],
+       "address":["t1","t2",{"t3":"Give again"}]
+      }
+      console.log(user.address[2].t3);
+      console.log(user.middlename);
+
+       </script>
+       
+</body>
+</html>

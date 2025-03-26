@@ -1,0 +1,134 @@
+<!-- write one json stream with date property and print the date in the indian standard time  -->
+ <!-- while clicking on the button  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // const obj = JSON.parse('{"name":"xyz", "age": "17", "dob": "1997-03-14"}')
+        // console.log(obj);
+        // a = new Date(obj.dob)
+        // console.log(a)        
+        function call(){
+            const obj = JSON.parse('{"name":"xyz", "age": "17", "dob": "1997-03-14"}')
+        
+        obj = new Date(obj.dob)
+        document.getElementById("demo").innerHTML = obj
+       document.getElementById
+        }
+        function name(){
+            const obj = JSON.parse('{"name":"xyz", "age": "17", "dob": "1997-03-14"}')
+        a = obj.name
+        document.getElementById("demo").innerHTML = obj
+        }
+        const sub = {
+            "fsd":[{
+                "Topic":"Html",
+                "course":"begineer",
+                "content":["tags","Table","form"]
+            },
+            {
+                "topic":"css",
+                "course":"begineer",
+                "content":["tags","table","form"]
+            }
+        ]
+        }
+        for(x in sub.fsd){
+            for(y in sub.fsd[x]){
+                document.write(sub.fsd[x][y]+"<br>")
+            }
+        }
+        for(x1 of sub.fsd){
+            document.write(x1.topic+"<br>")
+            document.write(x1.course+"<br>")
+            document.write(x1.content+"<br>")
+         }
+        // write a json object which contains array of three objects each object contains two properties a name and age 
+        // now sort an array value by age in decending order print name and age as per the sorted age 
+        const student = [
+            {"name":"ABC",
+                "age":"20"
+            },
+            {
+                "name":"def",
+                "age":"30"
+            },
+            {
+                "name":"ghi",
+                "age":"40"
+            }
+
+        ]
+        console.log(student.sort((a,b) => a.age-b.age));
+        // acending 
+
+        // write a script to define two json object name as division one and division two having an array 
+        // to store the name of students these names should be sorted alphabetically and should be displayed 
+        const test = {
+                "division1":{"name":["z","b","h"]},
+                "division2" : {"name":["y","A","G"]}
+            
+        }
+        const div1_data = test.division1.name;
+        const div2_data = test.division2.name;
+        var combine_data = div1_data.concat(div2_data).sort();
+        console.log(combine_data)
+        var input  = ["abc","def","ghi","jkl"]
+        output = {"abc":"jkl"}
+        function firstlast (a){
+            var temp= {}
+            temp[a[0]] = a[a.length-1];
+            return temp;
+        }
+        var data = ["abc","def","ghi","jkl"]
+        console.log(firstlast(data))
+
+        //to get the highest hight of the person in the array 
+        const person = [
+            {"name":"ABC",
+                "height":"20"
+            },
+            {
+                "name":"def",
+                "height":"30"
+            },
+            {
+                "name":"ghi",
+                "height":"40"
+            }
+
+        ]
+        function getHighest(person){
+            return Math.max(...person.map(obj=>obj.height))
+            //spread operator
+        }
+        console.log(getHighest(person))
+
+        // print hi we are students of sem 4 of cse branch  - print this statement 
+        const a = {"a":"lju",
+            "b":["cse","it","ce"],
+            "c":[{
+                "d":"hi",
+                "e":["are","4",{"f":["sem","we"]}]
+            }],
+            "g":{
+                "h":"students",
+                "i":["of","!"]
+            },
+            "j":[{"k":"python",
+                "l":"branch"
+            },"fsd2"]
+        }
+        console.log(a.c[0].d,a.g.i[1]+" "+a.c[0].e[2].f[1]+" "+a.c[0].e[0]+" "+a.g.h+" "+a.g.i[0]+" "+a.c[0].e[2].f[0]+" "+a.c[0].e[1]+" "+a.b[0]+" "+a.j[0].l )
+    </script>
+ </head>
+ <body>
+<p class="demo"></p> 
+<button onclick="call()" >click me </button>   
+<button onclick="name()" >click for name  </button>   
+
+ </body>
+ </html>

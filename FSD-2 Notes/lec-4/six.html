@@ -1,0 +1,34 @@
+<!-- write a code to perform the given task , 
+add three buttons 
+increase button to increase the font it should stop increasing the font 
+when the font size reach 200 a stop button is clicked 
+decrease button to decrease the font 
+it should stop to decreasing the font when the font size reach to 20 px 
+
+stop button to stop increasing or decreasing the font 
+increasing the decreasing the interval is 100ms 
+default font size of 50 px  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <script>
+              font=50;
+              function fun(font){
+                     document.getElementById("id").style.fontSize=font+"px"
+              }
+              function inc(){test=setInterval(()=> {if(font<200){fun(++font)}},100)}
+              function dec(){test=setInterval(()=> {if(font>20){fun(--font)}},100)}
+              function stop(){clearInterval(test)}
+       </script>
+</head>
+<body>
+       <p id="id" style="font-size:50px; "> Hello</p>
+
+       <button onclick="inc()">increase</button>
+       <button onclick="dec()">Decrease</button>
+       <button onclick="stop()">Stop</button>
+</body>
+</html>

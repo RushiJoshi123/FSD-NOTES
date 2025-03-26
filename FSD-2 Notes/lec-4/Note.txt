@@ -1,0 +1,6 @@
+Async file system 
+asymn func dont block the execution of program
+
+fs.writeFile() -> fs.writeFile(file,data,option,callback)
+fs.appendFile() -> fs.append(path,data,option,callback)
+fs.readfile() -> readFile(filename,encoding,callbackfunction)

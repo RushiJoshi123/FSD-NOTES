@@ -1,0 +1,25 @@
+<!-- initialise two variables and increment both the variables and display the addition of both the variables at interval of 1 sec  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <script>
+              function add(){
+                     let obj = document.getElementById("id")
+                     obj.innerHTML = (a+b)
+                     if(a<=10){
+                            clearInterval(intervalIw)
+                            }
+              }
+              
+       let a=2 
+       let b=3 
+       let intervalIw= setInterval(function(){add(++a,++b)},1000);
+       </script>
+</head>
+<body>
+       <p id="id"></p>
+</body>
+</html>

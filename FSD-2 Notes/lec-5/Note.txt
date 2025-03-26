@@ -1,0 +1,21 @@
+# Asynchronous file system 
+       - does not block execution of program 
+       - previous comman runs in background 
+              and load that result once in finished processing
+
+       1. fs.readFile() [syntax: fs.writeFile(file,data,options,callback)]
+       2. fs.writeFile() [syntax: fs.readFile(file,encoding,callback function)]
+       3. fs.appendFile()[syntax: fs.appendfile(path,data,option,callback)]
+
+# OS Module : 
+       - operating system 
+       - getting the info about the computers os
+
+       syntax for including os module 
+       var os = require("os")
+
+       arch() 
+       hostname()
+       platform()
+       tmpdir()
+       freemem()

@@ -1,0 +1,24 @@
+<!-- display the addition of two numbers on browser using call back function  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <script>
+              function myDisplay(sum){
+                     document.getElementById("id").innerHTML = sum; 
+              }
+              function mycalc(num1,num2,mycallback){
+                     sum1 = num1+num2
+                     mycallback(sum);
+              }
+              mycalc(13,15,myDisplay)
+       </script>
+</head>
+<body>
+       <p id="id"></p>
+       
+</body>
+</html>
+initialise two variables and increment both the variables and display the addition of both the variables at interval of 1 sec 
