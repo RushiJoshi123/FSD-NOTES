@@ -1,0 +1,27 @@
+# Path Module: 
+       - working with directories and file path
+
+# Syntax to include :
+       - var path = require("path")
+
+# Methods :
+       - 1. basename() : return last part of path
+       - 2. dirname() : return directories of path 
+       - 3. extname(): return the file extention of path 
+
+# Url Module : 
+       - take teh url string as parameter and parse it 
+       - return an object with each part of url
+
+# Syntax : 
+       - url.parse(url_string,parse_query_string,slashes_host)
+
+       #Definations: 
+       url_string: url string
+       parse_query_string: its boolean value bydefault "false"
+       slashes_host: boolean value bydefault : "false" consider the part between "'
+#Request rul :
+       - the functin passed into the http.createServer()
+       - has req argument - repersent the request from the client as an object 
+       
+
