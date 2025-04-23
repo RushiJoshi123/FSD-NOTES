@@ -1,0 +1,24 @@
+npm install <packagename>          
+
+res.end
+res.json
+res.redirect
+res.render
+res.send
+res.sendFile
+
+# Routing : 
+       - app.method(path,handler)
+Routz parameters : 
+       URL segments : 
+              - are used to capture values 
+              specified at their position in URL 
+
+              by req.params
+                     - will return an JSON object 
+# Link HTML , CSS, JS ; 
+
+app.use(path,callback)
+path.join()
+__dirname()
+
