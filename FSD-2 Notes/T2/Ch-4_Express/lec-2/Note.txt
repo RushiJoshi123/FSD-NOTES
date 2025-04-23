@@ -1,0 +1,9 @@
+link html,css, and js files : 
+app.use(path,callback)
+
+serving static files in express
+       such as css,html,js -> use express.static
+        built in middle ware in expresss
+# Folder structure 
+       - load html filenamed index.html (all files in same folder )
+
