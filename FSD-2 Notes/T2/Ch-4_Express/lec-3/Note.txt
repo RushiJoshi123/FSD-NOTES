@@ -1,0 +1,13 @@
+GET and POST : 
+       - both are common  http request used for rest api's 
+       - get- request used to send only limited amount of data data is included in URL 
+
+       - post request used to send large amount of data 
+         data is sent in body '
+
+POST METHOD : 
+  - app.use(express.urlencoded())
+  app.use(express.urlencoded({extended:False}))
+
+  built in middle ware 
+    tells middleware how to parse data 
